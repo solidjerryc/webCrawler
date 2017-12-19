@@ -20,7 +20,7 @@ print html
 ```
 import webCrawler as wc
 
-proxy={'xxx.xxx.xxx.xxx','1234'}
+proxy=['xxx.xxx.xxx.xxx','1234']
 url=r'https://xxxxxxxxxxxxxx'
 html=wc.use_requests_proxy(url,proxy)
 
