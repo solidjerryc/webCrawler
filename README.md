@@ -1,6 +1,7 @@
 "# webCrawler" 
 
-Put ==webCrawler.pyc== in the same path as your python file. Meanwhile, it is necessary to install ==retry== module in your system.
+Put ***webCrawler.pyc*** in the same path as your python file. Meanwhile, it is necessary to install ***retry*** module in your system.
+Use ```pip install retry``` to install ***retry*** module.
 
 Sample usage：
 
@@ -14,7 +15,7 @@ html=wc.HTML(url)
 print html
 ```
 
-2. get html by using ==proxies==
+2. get html by using ***proxies***
 
 ```
 import webCrawler as wc
